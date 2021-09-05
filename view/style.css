@@ -44,7 +44,6 @@
 }
 
 html {
-    background-color: #222831;
     font-family: PingFangSC, 'Noto Sans CJK SC', 'MS Yahei';
 }
 
@@ -64,7 +63,6 @@ html {
     white-space: nowrap;
     transform: translate(-50%,-50%);
     text-align: center;
-    color: #EEEEEE;
 }
 
 .mainbtn {
@@ -72,15 +70,14 @@ html {
     top: 65%;
     left: 50%;
     padding: 0.8rem 1rem;
-    border: 1px #EEEEEE solid;
+    border: 1px #ccc solid;
     border-radius: 0.2rem;
-    background-color:#393E46;
+    background-color:white;
     font-size: 1.6rem;
     white-space: nowrap;
     transform: translate(-50%,-50%);
     cursor: pointer;
     z-index:2;
-    color: #EEEEEE;
 }
 
 .iconfont {
@@ -99,7 +96,7 @@ html {
     border-radius: 0.2rem;
     background-color:lightsteelblue;
     font-size: 1.4rem;
-    color: #EEEEEE;
+    color: white;
     cursor: pointer;
     z-index:2;
 }
@@ -111,9 +108,9 @@ html {
     padding: 0.1rem 1rem;
     border: none;
     border-radius: 0.2rem;
-    background-color:#EEEEEE;
+    background-color:#222831;
     font-size: 1.4rem;
-    color: #222831;
+    color: #EEEEEE;
     cursor: pointer;
     z-index:2;
 }
@@ -126,7 +123,6 @@ html {
     white-space: nowrap;
     transform: translateX(-50%);
     text-align: center;
-    color: #EEEEEE;
 }
 
 .judge,
@@ -148,7 +144,7 @@ html {
 
 .selectlist > li {
     position: relative;
-    border: 1px #EEEEEE solid;
+    border: 1px #ccc solid;
     display: inline-block;
     width: 95%;
     margin: 0.1rem auto;
@@ -156,7 +152,6 @@ html {
     text-align: center;
     border-radius: 0.2rem;
     cursor: pointer;
-    color: #EEEEEE;
 }
 
 .selectlist > li::before {
@@ -196,7 +191,7 @@ html {
 
 .selected {
     background-color: gray;
-    color: #EEEEEE;
+    color: white;
 }
 
 .propinitial {
@@ -213,7 +208,6 @@ html {
     text-align: center;
     border-radius: 0.2rem;
     padding: 0.2rem;
-    color: #EEEEEE;
 }
 
 .propinitial > li > input {
@@ -223,21 +217,19 @@ html {
     padding: 0;
     text-align: center;
     font-size: 2rem;
-    border: 0.1rem #EEEEEE solid;
-    background-color: #393E46;
-    color: #EEEEEE;
+    border: 0.1rem #ccc solid;
 }
 
 .propbtn {
     position: relative;
     cursor: pointer;
     font-size: 2rem;
-    color: #EEEEEE;
+    user-select: none;
 }
 
 .lifeTrajectory {
-    border: 1px #EEEEEE solid;
-    background-color: #393E46;
+    border: 1px lightblue solid;
+    background-color: aliceblue;
 }
 
 .judge > li,
@@ -247,9 +239,9 @@ html {
     margin: 0.5rem 0;
     padding: 0.5rem 1rem 0.5rem 6rem;
     font-size: 1.4rem;
-    background-color: #4a5361;
-    box-shadow: #EEEEEE 0 0 0.4rem;
-    color: #EEEEEE;
+    background-color: white;
+    box-shadow: lightblue 0 0 0.4rem;
+    user-select: none;
 }
 
 .judge > li > span,
@@ -261,14 +253,14 @@ html {
 }
 
 .judge > li {
-    box-shadow: #EEEEEE 0 0 0.4rem;
+    box-shadow: lightgray 0 0 0.4rem;
     width: calc(100% - 9rem);
     margin: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 7rem;
 }
 
 .judge > li > span {
-    background-color: #393E46;
+    background-color: white;
     height: calc(100% - 1rem);
     padding: 0.5rem 0;
     top: 0;
